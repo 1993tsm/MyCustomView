@@ -12,12 +12,12 @@ public class MainActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.iconview);
        // cv = (CircleView) findViewById(R.id.cv);
        // ev = (EraserView) findViewById(R.id.ev);
        // ecgView = (ECGView) findViewById(R.id.ev);
 
       //  new Thread(cv).start();
-        brickView = (BrickView) findViewById(R.id.ev);
+       // brickView = (BrickView) findViewById(R.id.ev);
     }
 }
