@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/myLayout"
     tools:context="com.example.administrator.mycustomview.MainActivity">
 
     <!--<com.example.administrator.mycustomview.CircleView-->
@@ -22,17 +24,24 @@
         <!--android:layout_width="match_parent"-->
         <!--android:layout_height="match_parent"-->
         <!--/>-->
-    <com.example.administrator.mycustomview.BrickView
-        android:id="@+id/ev"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginStart="88dp"
-        android:layout_marginTop="180dp" />
-
-    <Button
-        android:id="@+id/bt1"
+    <!--<com.example.administrator.mycustomview.BrickView-->
+        <!--android:id="@+id/ev"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:layout_alignParentTop="true"-->
+        <!--android:layout_alignParentStart="true"-->
+        <!--android:layout_marginStart="88dp"-->
+        <!--android:layout_marginTop="180dp" />-->
+    <com.example.administrator.mycustomview.test.TestButton
+        android:id="@+id/my_bt"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
-</RelativeLayout>
+        android:layout_height="wrap_content"
+
+        android:text="测试事件分发"
+        />
+
+    <!--<Button-->
+        <!--android:id="@+id/bt1"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content" />-->
+</LinearLayout>
